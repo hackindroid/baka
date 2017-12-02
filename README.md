@@ -1,2 +1,0 @@
-# baka
-bakayaru project
