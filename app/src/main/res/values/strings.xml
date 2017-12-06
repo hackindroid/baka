@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Baka</string>
+    <string-array name="Sem1_array">
+        <item>1stSem</item>
+        <item>2ndSem</item>
+    </string-array>
+    <string-array name="Sem2_array">
+        <item>Midsem</item>
+        <item>Endsem</item>
+    </string-array>
 </resources>

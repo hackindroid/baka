@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Activities.FirstYearNotesActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.UploadActivity"></activity>
     </application>
 
 </manifest>
