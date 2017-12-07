@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+
+    tools:context="com.pratap.ninja.baka.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:onClick="NotesMethod"
+                android:id="@+id/llnotes"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/notes1"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="30dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:text="Notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:onClick="EbookMethod"
+                android:id="@+id/llebook"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/book3"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="30dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:text="Ebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:onClick="PapersMethod"
+                android:id="@+id/llpapers"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/papers1"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="30dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:text="papers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:onClick="AssignMethod"
+                android:id="@+id/llassign"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/assign1"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="30dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:text="assign."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
